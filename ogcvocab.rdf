@@ -108,10 +108,6 @@
     <skos:prefLabel xml:lang="en">Smart Cities</skos:prefLabel>
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_24">
-    <skos:prefLabel xml:lang="en">Arctic</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
-  </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_25">
     <skos:prefLabel xml:lang="en">Compliance</skos:prefLabel>
     <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_26"/>
@@ -133,6 +129,84 @@
   </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_29">
     <skos:prefLabel xml:lang="en">WMTS</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_30">
+    <skos:prefLabel xml:lang="en">Architecture</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_31"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_32"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_33"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_34"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_35"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_36"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_37"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_38"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_39"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_40"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_41"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_42"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_43"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_44"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_45"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_31">
+    <skos:prefLabel xml:lang="en">Asynchronous Communicationn</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_32">
+    <skos:prefLabel xml:lang="en">Big Data</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_33">
+    <skos:prefLabel xml:lang="en">Broker</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_34">
+    <skos:prefLabel xml:lang="en">Cloud</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_35">
+    <skos:prefLabel xml:lang="en">Events</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_36">
+    <skos:prefLabel xml:lang="en">Messaging</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_37">
+    <skos:prefLabel xml:lang="en">Platforms</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_38">
+    <skos:prefLabel xml:lang="en">Portrayal</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_39">
+    <skos:prefLabel xml:lang="en">PubSub</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_40">
+    <skos:prefLabel xml:lang="en">REST</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_41">
+    <skos:prefLabel xml:lang="en">Synchronization</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_42">
+    <skos:prefLabel xml:lang="en">Security</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_43">
+    <skos:prefLabel xml:lang="en">Sensor Web</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_44">
+    <skos:prefLabel xml:lang="en">SOAP</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_45">
+    <skos:prefLabel xml:lang="en">Workflows</skos:prefLabel>
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
   </skos:Concept>
 </rdf:RDF>
