@@ -311,7 +311,7 @@
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_57"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_56">
-    <skos:prefLabel xml:lang="en">Geopackage</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">GeoPackage</skos:prefLabel>
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_56"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_55">
