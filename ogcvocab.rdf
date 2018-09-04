@@ -26,7 +26,12 @@
     <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_91"/>
     <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_92"/>
     <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_93"/>
+    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_94"/>
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_84"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_94">
+    <skos:prefLabel xml:lang="en">WPS</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_94"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_93">
     <skos:prefLabel xml:lang="en">WOS</skos:prefLabel>
