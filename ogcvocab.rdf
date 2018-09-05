@@ -122,7 +122,7 @@
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_94"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_93">
-    <skos:prefLabel xml:lang="en">Fit for purpose</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Fit-for-purpose</skos:prefLabel>
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_93"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_92">
@@ -188,7 +188,7 @@
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_80"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_43">
-    <skos:prefLabel xml:lang="en">Data Models</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Data Model</skos:prefLabel>
     <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_44"/>
     <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_45"/>
     <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_49"/>
@@ -388,7 +388,7 @@
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_25"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_42">
-    <skos:prefLabel xml:lang="en">Workflows</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Workflow</skos:prefLabel>
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_42"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_41">
@@ -502,7 +502,7 @@
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_18"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_17">
-    <skos:prefLabel xml:lang="en">Internet of Things</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">IoT</skos:prefLabel>
     <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_17"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_16">
