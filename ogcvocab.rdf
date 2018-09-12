@@ -1,575 +1,699 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  <skos:ConceptScheme rdf:about="http://www.ogc.org/"> </skos:ConceptScheme>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_0">
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc11="http://purl.org/dc/elements/1.1/">
+
+  <skos:ConceptScheme rdf:about="http://www.opengis.net/def/ip/keywords">
+    <rdfs:label xml:lang="en">Keywords for classifying OGC Interoperability Program documents</rdfs:label>
+    <rdfs:comment xml:lang="en">Used in ML analysis of documents</rdfs:comment>
+    <dc11:creator>Ingo Simonis, OGC</dc11:creator>
+  </skos:ConceptScheme>
+
+  <skos:Collection rdf:about="http://www.opengis.net/def/ip/keywords/">
+  </skos:Collection>
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_0">
     <skos:prefLabel xml:lang="en">IP</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_1"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_9"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_23"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_25"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_43"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_79"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_90"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_99"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_110"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_1"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_23"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_79"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_90"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_99"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_110"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_110">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_110">
     <skos:prefLabel xml:lang="en">Data Analytics</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_111"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_112"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_113"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_110"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_111"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_112"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_113"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_0"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_113">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_113">
     <skos:prefLabel xml:lang="en">conflation</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_113"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_110"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_112">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_112">
     <skos:prefLabel xml:lang="en">statistical analysis</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_112"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_110"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_111">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_111">
     <skos:prefLabel xml:lang="en">change detection</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_111"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_110"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_99">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_99">
     <skos:prefLabel xml:lang="en">Services</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_100"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_101"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_102"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_103"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_104"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_105"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_106"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_107"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_108"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_109"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_99"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_100"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_101"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_102"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_103"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_104"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_105"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_106"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_107"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_108"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_109"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_0"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_109">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_109">
     <skos:prefLabel xml:lang="en">WPS</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_109"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_99"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_108">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_108">
     <skos:prefLabel xml:lang="en">WOS</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_108"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_99"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_107">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_107">
     <skos:prefLabel xml:lang="en">WMTS</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_107"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_99"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_106">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_106">
     <skos:prefLabel xml:lang="en">WMS</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_106"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_99"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_105">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_105">
     <skos:prefLabel xml:lang="en">WIS</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_105"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_99"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_104">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_104">
     <skos:prefLabel xml:lang="en">WFS</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_104"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_99"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_103">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_103">
     <skos:prefLabel xml:lang="en">WCS</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_103"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_99"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_102">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_102">
     <skos:prefLabel xml:lang="en">WCPS</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_102"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_99"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_101">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_101">
     <skos:prefLabel xml:lang="en">SOS</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_101"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_99"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_100">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_100">
     <skos:prefLabel xml:lang="en">CSW</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_100"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_99"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_90">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_90">
     <skos:prefLabel xml:lang="en">Data Modeling</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_91"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_92"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_93"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_94"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_95"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_96"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_97"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_98"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_90"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_91"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_92"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_93"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_94"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_95"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_96"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_97"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_98"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_0"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_98">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_98">
     <skos:prefLabel xml:lang="en">Provenance</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_98"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_90"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_97">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_97">
     <skos:prefLabel xml:lang="en">Profiling</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_97"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_90"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_96">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_96">
     <skos:prefLabel xml:lang="en">Quality of Service</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_96"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_90"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_95">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_95">
     <skos:prefLabel xml:lang="en">Metadata</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_95"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_90"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_94">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_94">
     <skos:prefLabel xml:lang="en">Governance</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_94"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_90"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_93">
-    <skos:prefLabel xml:lang="en">Fit-for-purpose</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_93"/>
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_93">
+    <skos:prefLabel xml:lang="en">Fit for purpose</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_90"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_92">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_92">
     <skos:prefLabel xml:lang="en">Data quality</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_92"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_90"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_91">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_91">
     <skos:prefLabel xml:lang="en">Conversion</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_91"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_90"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_79">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_79">
     <skos:prefLabel xml:lang="en">Data Formats</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_80"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_81"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_82"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_83"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_84"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_85"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_86"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_87"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_88"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_89"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_79"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_80"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_81"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_82"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_83"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_84"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_85"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_86"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_87"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_88"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_89"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_0"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_89">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_89">
     <skos:prefLabel xml:lang="en">XML</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_89"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_79"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_88">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_88">
     <skos:prefLabel xml:lang="en">Turtle</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_88"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_79"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_87">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_87">
     <skos:prefLabel xml:lang="en">TopoJSON</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_87"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_79"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_86">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_86">
     <skos:prefLabel xml:lang="en">OWL</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_86"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_79"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_85">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_85">
     <skos:prefLabel xml:lang="en">JSON-LD</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_85"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_79"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_84">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_84">
     <skos:prefLabel xml:lang="en">JSON</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_84"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_79"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_83">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_83">
     <skos:prefLabel xml:lang="en">Google Protobuf</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_83"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_79"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_82">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_82">
     <skos:prefLabel xml:lang="en">GeoJSON</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_82"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_79"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_81">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_81">
     <skos:prefLabel xml:lang="en">Atom</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_81"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_79"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_80">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_80">
     <skos:prefLabel xml:lang="en">Apache Avro</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_80"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_79"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_43">
-    <skos:prefLabel xml:lang="en">Data Model</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_44"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_45"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_49"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_50"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_51"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_53"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_54"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_55"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_56"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_57"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_58"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_59"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_60"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_61"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_62"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_63"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_64"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_65"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_66"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_67"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_68"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_69"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_70"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_71"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_72"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_73"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_74"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_75"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_76"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_77"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_78"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_43"/>
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_43">
+    <skos:prefLabel xml:lang="en">Data Models</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_44"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_45"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_49"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_50"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_51"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_53"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_54"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_55"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_56"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_57"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_58"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_59"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_60"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_61"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_62"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_63"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_64"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_65"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_66"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_67"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_68"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_69"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_70"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_71"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_72"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_73"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_74"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_75"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_76"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_77"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_78"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_0"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_78">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_78">
     <skos:prefLabel xml:lang="en">XACML</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_78"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_77">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_77">
     <skos:prefLabel xml:lang="en">WaterML</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_77"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_76">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_76">
     <skos:prefLabel xml:lang="en">Video</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_76"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_75">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_75">
     <skos:prefLabel xml:lang="en">Vector Tiles</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_75"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_74">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_74">
     <skos:prefLabel xml:lang="en">SPARQL</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_74"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_73">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_73">
     <skos:prefLabel xml:lang="en">Terrain</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_73"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_72">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_72">
     <skos:prefLabel xml:lang="en">SensorML</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_72"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_71">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_71">
     <skos:prefLabel xml:lang="en">SHACL</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_71"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_70">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_70">
     <skos:prefLabel xml:lang="en">RDF</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_70"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_69">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_69">
     <skos:prefLabel xml:lang="en">SAML</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_69"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_68">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_68">
     <skos:prefLabel xml:lang="en">OpenSearch</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_68"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_67">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_67">
     <skos:prefLabel xml:lang="en">OWS Context</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_67"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_66">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_66">
     <skos:prefLabel xml:lang="en">OWS Common</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_66"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_65">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_65">
     <skos:prefLabel xml:lang="en">OM</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_65"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_64">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_64">
     <skos:prefLabel xml:lang="en">OCL</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_64"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_63">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_63">
     <skos:prefLabel xml:lang="en">OAuth</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_63"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_62">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_62">
     <skos:prefLabel xml:lang="en">NAS</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_62"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_61">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_61">
     <skos:prefLabel xml:lang="en">MapML</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_61"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_60">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_60">
     <skos:prefLabel xml:lang="en">LiDAR</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_60"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_59">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_59">
     <skos:prefLabel xml:lang="en">KML</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_59"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_58">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_58">
     <skos:prefLabel xml:lang="en">I3S</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_58"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_57">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_57">
     <skos:prefLabel xml:lang="en">GML</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_57"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_56">
-    <skos:prefLabel xml:lang="en">GeoPackage</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_56"/>
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_56">
+    <skos:prefLabel xml:lang="en">Geopackage</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_55">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_55">
     <skos:prefLabel xml:lang="en">Filter encoding</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_55"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_54">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_54">
     <skos:prefLabel xml:lang="en">DCAT</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_54"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_53">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_53">
     <skos:prefLabel xml:lang="en">Coverage</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_53"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_51">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_51">
     <skos:prefLabel xml:lang="en">CityGML</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_52"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_51"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_52"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_52">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_52">
     <skos:prefLabel xml:lang="en">ADE</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_52"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_51"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_50">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_50">
     <skos:prefLabel xml:lang="en">CDB</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_50"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_49">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_49">
     <skos:prefLabel xml:lang="en">Catalog</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_49"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_45">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_45">
     <skos:prefLabel xml:lang="en">Aeronautical</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_46"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_47"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_48"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_45"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_46"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_47"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_48"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_48">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_48">
     <skos:prefLabel xml:lang="en">WXXM</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_48"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_45"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_47">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_47">
     <skos:prefLabel xml:lang="en">FIXM</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_47"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_45"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_46">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_46">
     <skos:prefLabel xml:lang="en">AIXM</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_46"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_45"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_44">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_44">
     <skos:prefLabel xml:lang="en">3D Tiles</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_44"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_43"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_25">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_25">
     <skos:prefLabel xml:lang="en">Architecture</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_26"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_27"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_28"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_29"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_30"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_31"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_32"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_33"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_34"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_35"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_36"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_37"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_38"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_39"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_40"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_41"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_42"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_25"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_26"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_27"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_28"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_29"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_30"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_31"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_32"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_33"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_34"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_35"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_36"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_37"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_38"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_39"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_40"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_41"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_42"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_0"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_42">
-    <skos:prefLabel xml:lang="en">Workflow</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_42"/>
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_42">
+    <skos:prefLabel xml:lang="en">Workflows</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_41">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_41">
     <skos:prefLabel xml:lang="en">SOAP</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_41"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_40">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_40">
     <skos:prefLabel xml:lang="en">SWE</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_40"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_39">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_39">
     <skos:prefLabel xml:lang="en">Security</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_39"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_38">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_38">
     <skos:prefLabel xml:lang="en">Synchronization</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_38"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_37">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_37">
     <skos:prefLabel xml:lang="en">ROA</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_37"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_36">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_36">
     <skos:prefLabel xml:lang="en">REST</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_36"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_35">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_35">
     <skos:prefLabel xml:lang="en">PubSub</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_35"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_34">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_34">
     <skos:prefLabel xml:lang="en">Portrayal</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_34"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_33">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_33">
     <skos:prefLabel xml:lang="en">Platforms</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_33"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_32">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_32">
     <skos:prefLabel xml:lang="en">Messaging</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_32"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_31">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_31">
     <skos:prefLabel xml:lang="en">Events</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_31"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_30">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_30">
     <skos:prefLabel xml:lang="en">Cloud</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_30"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_29">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_29">
     <skos:prefLabel xml:lang="en">Container</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_29"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_28">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_28">
     <skos:prefLabel xml:lang="en">Broker</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_28"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_27">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_27">
     <skos:prefLabel xml:lang="en">Big Data</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_27"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_26">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_26">
     <skos:prefLabel xml:lang="en">Asynchronous Communication</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_26"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_25"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_23">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_23">
     <skos:prefLabel xml:lang="en">Compliance</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_24"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_23"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_24"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_0"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_24">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_24">
     <skos:prefLabel xml:lang="en">CITE</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_24"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_23"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_9">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_9">
     <skos:prefLabel xml:lang="en">Domains</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_10"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_11"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_13"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_14"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_15"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_16"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_17"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_18"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_19"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_20"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_21"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_22"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_9"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_10"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_11"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_12"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_13"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_14"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_15"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_16"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_17"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_18"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_19"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_20"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_21"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_22"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_0"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_22">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_22">
     <skos:prefLabel xml:lang="en">UAV</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_22"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_21">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_21">
     <skos:prefLabel xml:lang="en">Smart Cities</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_21"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_20">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_20">
     <skos:prefLabel xml:lang="en">Sensor Web</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_20"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_19">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_19">
     <skos:prefLabel xml:lang="en">Moving Targets</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_19"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_18">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_18">
     <skos:prefLabel xml:lang="en">Mass Migration</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_18"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_17">
-    <skos:prefLabel xml:lang="en">IoT</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_17"/>
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_17">
+    <skos:prefLabel xml:lang="en">Internet of Things</skos:prefLabel>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_16">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_16">
     <skos:prefLabel xml:lang="en">Hydrology</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_16"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_15">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_15">
     <skos:prefLabel xml:lang="en">Disaster Management</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_15"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_14">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_14">
     <skos:prefLabel xml:lang="en">DDIL</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_14"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_13">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_13">
     <skos:prefLabel xml:lang="en">Crowd Sourcing</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_13"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_12">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_12">
     <skos:prefLabel xml:lang="en">Climate Change</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_12"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_11">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_11">
     <skos:prefLabel xml:lang="en">Aviation</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_11"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_10">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_10">
     <skos:prefLabel xml:lang="en">Arctic</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_10"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_9"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_1">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_1">
     <skos:prefLabel xml:lang="en">Semantic</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_2"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_3"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_4"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_5"/>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_7"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_1"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_2"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_3"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_4"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_5"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_7"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_0"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_7">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_7">
     <skos:prefLabel xml:lang="en">Ontology Instance</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_8"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_7"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_8"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_1"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_8">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_8">
     <skos:prefLabel xml:lang="en">NEO</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_8"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_7"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_5">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_5">
     <skos:prefLabel xml:lang="en">Ontology</skos:prefLabel>
-    <skos:broader rdf:resource="http://www.ogc.org/ip/ipvoc#c_6"/>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_5"/>
+    <skos:broader rdf:resource="http://www.opengis.net/def/ip/keywords/c_6"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_1"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_6">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_6">
     <skos:prefLabel xml:lang="en">Taxonomy</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_6"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_5"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_4">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_4">
     <skos:prefLabel xml:lang="en">Registries</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_4"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_1"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_3">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_3">
     <skos:prefLabel xml:lang="en">Mapping</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_3"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_1"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://www.ogc.org/ip/ipvoc#c_2">
+
+  <skos:Concept rdf:about="http://www.opengis.net/def/ip/keywords/c_2">
     <skos:prefLabel xml:lang="en">Linked Data</skos:prefLabel>
-    <skos:narrower rdf:resource="http://www.ogc.org/ip/ipvoc#c_2"/>
+    <skos:narrower rdf:resource="http://www.opengis.net/def/ip/keywords/c_1"/>
   </skos:Concept>
+
+
 </rdf:RDF>
