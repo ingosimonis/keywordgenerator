@@ -1,0 +1,112 @@
+IP
+Semantic
+Domains
+Taxonomy
+Compliance
+Architecture
+Data Model
+AIXM
+FIXM
+WXXM
+ADE
+Data Formats
+Data Modeling
+Services
+Data Analytics
+Linked Data
+Mapping
+NEO
+Ontology
+Registries
+Arctic
+Aviation
+Climate Change
+Crowd Sourcing
+DDIL
+Disaster Management
+Hydrology
+IoT
+Mass Migration
+Moving Targets
+Sensor Web
+Smart Cities
+UAV
+CITE
+Asynchronous Communication
+Big Data
+Broker
+Container
+Cloud
+Events
+Messaging
+Platform
+Portrayal
+PubSub
+REST
+ROA
+Synchronization
+Security
+SWE
+SOAP
+Workflow
+3D Tiles
+Aeronautical
+Catalog
+CDB
+CityGML
+Coverage
+DCAT
+Filter encoding
+Geopackage
+GML
+I3S
+KML
+LiDAR
+MapML
+NAS
+OAuth
+OCL
+OM
+OWS Common
+OWS Context
+OpenSearch
+SAML
+RDF
+SHACL
+SensorML
+SPARQL
+Terrain
+Vector Tiles
+Video
+WaterML
+XACML
+Apache Avro
+Atom
+GeoJSON
+Google Protobuf
+JSON
+JSON-LD
+OWL
+TopoJSON
+XML
+Conversion
+Data quality
+Fit-for-purpose
+Governance
+Metadata
+Quality of Service
+Profiling
+Provenance
+CSW
+SOS
+WCPS
+WCS
+WFS
+WIS
+WMS
+WMTS
+WOS
+WPS
+change detection
+statistical analysis
+conflation

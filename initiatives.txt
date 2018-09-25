@@ -1,0 +1,38 @@
+3D Portrayal Interoperability Experiment
+AAtS Study
+ArcticSDP
+Authentication Interoperability Experiment 
+CHISP-1
+CityGML Quality Interoperability Experiment 
+Climate Challenge Integration Plugfest 2009
+Fusion Standards Study, Phase 2 
+Fusion Study
+Future City Pilot, Phase 1
+Geo4NIEM Pilot 
+GeoPackage Elevation Extension IE
+GEOSS AIP-2
+Groundwater Interoperability Experiment 
+GW2IE
+Incident Management Information Sharing (IMIS) Internet of Things (IOT) Pilot
+Military Operations Geospatial Interoperability Experiment (MOGIE) 
+NSG Plugweek
+Ocean Science Interoperability Experiment
+Ocean Science Interoperability Experiment Phase II  
+OGC Web Services, Phase 7 (OWS-7)
+OGC Web Services, Phase 8 (OWS-8)
+OGC Web Services, Phase 9 (OWS-9)
+OWS Shibboleth Interoperability Experiment 
+OWS-6
+SAA Pilot Study 
+Soil Data Interoperability Experiment 
+Strengthening Disaster Risk Reduction Across the Americas Summit - Simulated Exercise
+Surface Water Interoperability Experiment
+SWE Implementation Maturity Study
+Testbed-10
+Testbed-11
+Testbed-12
+Testbed-13
+UKIAP 
+Underground Infrastructure Concept Development Study
+USGS OGC Interoperability Assessment 
+Water Information Services Concept Development Study
